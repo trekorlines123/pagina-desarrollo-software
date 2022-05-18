@@ -1,0 +1,91 @@
+ .contenedor2{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;  
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.5) 0%, rgba(251, 194, 235, 0.5) 100%), url(/img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+  .head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff; 
+}
+ 
+:root{
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300px;
+    font-size: 25px;
+}
+
+
+/* nuestro servicio  */
+.service{
+      display: flex; 
+     justify-content:space-between;
+     align-items: center; 
+      /* flex-wrap: wrap;  */
+   
+}  
+
+.subtitulo{
+    text-align: center;
+    font-weight: 1000; 
+    color: #9f8ad0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    
+    
+    
+} 
+
+    
+
+ .cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+
+}
+ 
+.n-expert{
+   display: inline-block; 
+   margin-top: 20px;
+   width: 100%;
+   font-weight: 400;
+   
+} 
+
+
+
+
+ 
+
+
